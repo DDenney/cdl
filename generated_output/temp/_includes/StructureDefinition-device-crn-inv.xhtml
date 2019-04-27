@@ -1,0 +1,11 @@
+<h4>Constraints</h4>
+<table class="list">
+<tr><td width="60"><b>Id</b></td><td><b>Path</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>dom-2</td><td>Device</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
+<tr><td>dom-1</td><td>Device</td><td>If the resource is contained in another resource, it SHALL NOT contain any narrative<br/>: contained.text.empty()</td><td></td></tr>
+<tr><td>dom-4</td><td>Device</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
+<tr><td>dom-3</td><td>Device</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource<br/>: contained.where(('#'+id in %resource.descendants().reference).not()).empty()</td><td></td></tr>
+<tr><td>crn-device-data</td><td>Device</td><td>If UDI is included at least one of (distinctIdentifier, manufactureDate, expirationDate, lotNumber, serialNumber) must be included.<br/>: (udiCarrier.exists()) and (distinctIdentifier.exists() or manufactureDate.exists() or expirationDate.exists() or lotNumber.exists() or serialNumber.exists())</td><td></td></tr>
+<tr><td>ele-1</td><td>Device.udi</td><td>All FHIR elements must have a @value or children<br/>: hasValue() | (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>crn-device-status</td><td>Device.status</td><td>Status must be present if udiCarrier is present.<br/>: (udiCarrier.exists() and status.exists())</td><td></td></tr>
+</table>
