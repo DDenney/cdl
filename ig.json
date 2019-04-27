@@ -61,7 +61,7 @@
   "fixed-business-version" : "0.1.0",
   "gen-examples" : "false",
   "html-template" : "html-template.html",
-  "igtemplate-dir" : "/Users/doug/git/cdl",
+  "igtemplate-dir" : "/Users/doug/Documents/cdl-master",
   "license" : "CC0-1.0",
   "logging" : [
     "init", "progress", "context", "html"
@@ -129,5 +129,5 @@
   "tool" : "jekyll",
   "topofpage" : "true",
   "version" : "4.0.0",
-  "working-dir" : "/Users/doug/git/cdl/"
+  "working-dir" : "/Users/doug/Documents/cdl-master"
 }
