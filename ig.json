@@ -92,18 +92,6 @@
       "base" : "CapabilityStatement-server.html",
       "source" : "capabilitystatement-server.xml"
     },
-    "StructureDefinition/device-crn" : {
-      "base" : "StructureDefinition-device-crn.html",
-      "defns" : "StructureDefinition-device-crn-definitions.html"
-    },
-    "StructureDefinition/devicedefinition-crn" : {
-      "base" : "StructureDefinition-devicedefinition-crn.html",
-      "defns" : "StructureDefinition-devicedefinition-crn-definitions.html"
-    },
-    "StructureDefinition/procedure-crn" : {
-      "base" : "StructureDefinition-procedure-crn.html",
-      "defns" : "StructureDefinition-procedure-crn-definitions.html"
-    },
     "StructureMap/Foo" : {
       "base" : "StructureMap-Foo.html"
     }
@@ -111,9 +99,6 @@
   "sct-edition" : "http://snomed.info/sct/731000124108",
   "source" : "ig.xml",
   "spreadsheets" : [
-    "device-crn-profile-spreadsheet.xml",
-    "devicedefinition-crn-profile-spreadsheet.xml",
-    "procedure-crn-profile-spreadsheet.xml"
   ],
   "status" : "draft",
   "structuremaps" : [
