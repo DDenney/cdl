@@ -55,7 +55,7 @@ The specification describes two use cases:
 
 ### Dependencies
 This implementation guide relies on the following specification:
-* **[FHIR R4]({{site.data.fhir.path}})** - The 'current' official version of FHIR as of the time this implementation guide was published.  See the [background page](background.html#fhir) for key pieces of this specification implementers should be familiar with.
+* **[FHIR R4]({{site.data.fhir.path}})** - The 'current' official version of FHIR as of the time this implementation guide was published.  
 
 This implementation guide defines additional constraints and usage expectations above and beyond the information found in these base specifications.
 

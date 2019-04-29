@@ -19,7 +19,7 @@
   }],
   "url" : "http://hl7.org/fhir/us/cdl/ImplementationGuide/ig",
   "version" : "0.1.0",
-  "name" : "FHIRtoCDISCLaboratoryDataMapping",
+  "name" : "FHIR to CDISC Laboratory Data Mapping",
   "title" : "FHIR to CDISC Laboratory Data Mapping",
   "status" : "draft",
   "publisher" : "HL7 International - Biomedical Research and Regulation Work Group",
@@ -47,12 +47,6 @@
     "version" : "current"
   }],
   "definition" : {
-    "resource" : [{
-      "reference" : {
-        "reference" : "CapabilityStatement/server"
-      },
-      "exampleBoolean" : false
-    }],
     "page" : {
       "nameUrl" : "index.md",
       "title" : "FHIR to CDISC Laboratory Data Mapping IG",

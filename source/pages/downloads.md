@@ -45,7 +45,7 @@ The FHIR to CDISC mapping is useful for understanding how to relate FHIR resourc
 
 [Data Mapping](LAB_LB_FHIR_mapping_and_gaps_for_IG.htm)
 
-Download the entire spreadsheet here:  [LAB_LB_FHIR_mapping_and_gaps_for_IG.xlsx](LAB_LB_FHIR_mapping_and_gaps_for_IG_01-16-2019.xlsx)
+Download the entire spreadsheet here:  [LAB_LB_FHIR_mapping_and_gaps_for_IG.xlsx](LAB_LB_FHIR_mapping_and_gaps_for_IG.xlsx)
 
 ### Use Case 2: FHIR to CDISC CDASH or SDTM
 
@@ -53,7 +53,7 @@ Since implementations of CDASH and SDTM data stores may vary by sponsor, please 
 
 [Data Mapping](LAB_LB_FHIR_mapping_and_gaps_for_IG.htm)
 
-Download the entire spreadsheet here:  [LAB_LB_FHIR_mapping_and_gaps_for_IG.xlsx](LAB_LB_FHIR_mapping_and_gaps_for_IG_01-16-2019.xlsx)
+Download the entire spreadsheet here:  [LAB_LB_FHIR_mapping_and_gaps_for_IG.xlsx](LAB_LB_FHIR_mapping_and_gaps_for_IG.xlsx)
 
 ### IG Download
 

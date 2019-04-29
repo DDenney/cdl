@@ -19,7 +19,7 @@ active: credits
 **Primary author:**  
 Christine Denney (Eli Lilly)  
 
-**Data Mapping:**  
+**CDISC Data Mapping SMEs:**  
 Lorraine Spencer (EMD Serono)  
 Aruna Vattikola (Novartis)  
 

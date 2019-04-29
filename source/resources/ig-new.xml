@@ -16,7 +16,7 @@
   </extension>
   <url value="http://hl7.org/fhir/us/cdl/ImplementationGuide/ig"/>
   <version value="0.1.0"/>
-  <name value="FHIR to CDISC Laboratory Data Mapping"/>
+  <name value="FHIRtoCDISCLaboratoryDataMapping"/>
   <title value="FHIR to CDISC Laboratory Data Mapping"/>
   <status value="draft"/>
   <publisher value="HL7 International - Biomedical Research and Regulation Work Group"/>
@@ -42,6 +42,12 @@
     <version value="current"/>
   </dependsOn>
   <definition>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/server"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <nameUrl value="index.md"/>
       <title value="FHIR to CDISC Laboratory Data Mapping IG"/>
