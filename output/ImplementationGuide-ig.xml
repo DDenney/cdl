@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.fhir.us.cdl-0.1.0"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FHIR to CDISC Laboratory Data Mapping</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/cdl/ImplementationGuide/ig</pre></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/cdl/ImplementationGuide/ig"/>
+  <version value="0.1.0"/>
+  <name value="FHIR to CDISC Laboratory Data Mapping"/>
+  <title value="FHIR to CDISC Laboratory Data Mapping"/>
+  <status value="draft"/>
+  <publisher value="HL7 International - Biomedical Research and Regulation Work Group"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <copyright value="Used by permission of HL7, all rights reserved Creative Commons License"/>
+  <packageId value="hl7.org.fhir.us.cdl"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.0"/>
+  <definition>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CapabilityStatement-server.html"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/server"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="index.md"/>
+      <title value="FHIR to CDISC Laboratory Data Mapping IG"/>
+      <generation value="markdown"/>
+    </page>
+  </definition>
+</ImplementationGuide>

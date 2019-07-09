@@ -1,0 +1,42 @@
+﻿FHIR to CDISC Laboratory Data Mapping : Validation Results
+=========================================
+
+err = 0, warn = 2, info = 0
+Generated Mon Jul 08 21:07:21 EDT 2019. FHIR version 4.0.0 for hl7.fhir.us.cdl#0.1.0 (canonical = http://hl7.org/fhir/us/cdl)
+
+ Build Errors : 28 / 0
+ /Users/doug/Documents/HL7/cdisc-lab/source/resources/capabilitystatement-server : 0 / 0
+ /Users/doug/Documents/HL7/cdisc-lab/source/resources/ig : 0 / 1
+</table>
+== n/a ==
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LAB_LB_FHIR_mapping_and_gaps_for_IG_files/sheet002.htm: unexpected non-end of element null::meta  at line 6 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LAB_LB_FHIR_mapping_and_gaps_for_IG_files/tabstrip.htm: unexpected non-end of element null::meta  at line 3 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LAB_LB_FHIR_mapping_and_gaps_for_IG_files/sheet003.htm: unexpected non-end of element null::meta  at line 7 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LAB_LB_FHIR_mapping_and_gaps_for_IG_files/sheet001.htm: unexpected non-end of element null::meta  at line 7 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LB test data for IG.htm: unexpected non-end of element null::meta  at line 8 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/Lab Narrative for IG.htm: unexpected non-end of element null::meta  at line 8 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LAB_LB_FHIR_mapping_and_gaps_for_IG.htm: unexpected non-end of element null::meta  at line 8 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LB test data for IG_files/sheet002.htm: unexpected non-end of element null::meta  at line 7 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LB test data for IG_files/tabstrip.htm: unexpected non-end of element null::meta  at line 3 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/LB test data for IG_files/sheet001.htm: unexpected non-end of element null::meta  at line 6 column 46
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/CapabilityStatement-server.html: The html source does not contain the header marker <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader--> (see note at http://wiki.hl7.org/index.php?title=FHIR_Implementation_Guide_Publishing_Requirements#HL7_HTML_Standards_considerations)
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/CapabilityStatement-server.json.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/CapabilityStatement-server.ttl.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/CapabilityStatement-server.xml.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/ImplementationGuide-ig.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/ImplementationGuide-ig.json.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/ImplementationGuide-ig.ttl.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/ImplementationGuide-ig.xml.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/capstatements.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/credits.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/downloads.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/guidance.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/history.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/index.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/mappingsandprofiles.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/overview.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/terminology.html: The html source does not contain the header marker
+ERROR: /Users/doug/Documents/HL7/cdisc-lab/output/toc.html: The html source does not contain the header marker
+== /Users/doug/Documents/HL7/cdisc-lab/source/resources/capabilitystatement-server.xml ==
+== /Users/doug/Documents/HL7/cdisc-lab/source/resources/ig.xml ==
+WARNING: ImplementationGuide/ig: ImplementationGuide: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]

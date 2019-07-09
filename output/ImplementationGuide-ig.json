@@ -1,0 +1,51 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.us.cdl-0.1.0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FHIR to CDISC Laboratory Data Mapping</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/cdl/ImplementationGuide/ig</pre></div>"
+  },
+  "url": "http://hl7.org/fhir/us/cdl/ImplementationGuide/ig",
+  "version": "0.1.0",
+  "name": "FHIR to CDISC Laboratory Data Mapping",
+  "title": "FHIR to CDISC Laboratory Data Mapping",
+  "status": "draft",
+  "publisher": "HL7 International - Biomedical Research and Regulation Work Group",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/rcrim"
+        }
+      ]
+    }
+  ],
+  "copyright": "Used by permission of HL7, all rights reserved Creative Commons License",
+  "packageId": "hl7.org.fhir.us.cdl",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.0"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-server.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/server"
+        },
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "index.md",
+      "title": "FHIR to CDISC Laboratory Data Mapping IG",
+      "generation": "markdown"
+    }
+  }
+}
